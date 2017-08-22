@@ -63,5 +63,3 @@ a {
   color: #3273dc;
 }
 </style>
-
-
