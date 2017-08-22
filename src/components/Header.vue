@@ -34,7 +34,7 @@
 
 <script>
 export default {
-  name: 'app-header',
+  name: 'header',
 
   computed: {
     activeCount () {
