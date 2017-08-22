@@ -13,7 +13,7 @@ describe('Card.vue', () => {
   let mutations
   const task = {
     id: 1,
-    content: 'Update readme',
+    content: 'test task',
     isComplete: false,
     isEditable: false
   }
@@ -45,6 +45,7 @@ describe('Card.vue', () => {
   it('call enableEdit mutation when edit button clicked', () => {
     const wrapper = mount(Card, { store, propsData: { task }})
     wrapper.find('.card-footer-item')[0].trigger('click')
+    expect(wrapper.data().content).toBe(task.content)
     expect(mutations.enableEdit.calledOnce).toBe(true)
   })
 
