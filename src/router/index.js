@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import ArticleList from '../components/ArticleList.vue'
-import ArticleForm from '../components/ArticleForm.vue'
+import List from '../components/List.vue'
+import Complete from '../components/Complete.vue'
 
 Vue.use(Router)
 
@@ -11,13 +11,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'ArticleList',
-      component: ArticleList
+      name: 'List',
+      component: List
     },
     {
-      path: '/new',
-      name: 'ArticleForm',
-      component: ArticleForm
+      path: '/complete',
+      name: 'Complete',
+      component: Complete
     }
   ]
 })
