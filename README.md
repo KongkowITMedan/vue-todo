@@ -1,6 +1,6 @@
-# demo-todo
+# vue-todo
 
-> demo vue app with vue-router & vuex
+> demo vue todo app with vue-router & vuex
 
 ## Build Setup
 

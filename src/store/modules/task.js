@@ -27,13 +27,8 @@ export default {
   },
 
   getters: {
-    active: state => {
-      return state.all.filter(task => !task.isComplete)
-    },
-
-    complete: state => {
-      return state.all.filter(task => task.isComplete)
-    }
+    active: state => state.all.filter(task => !task.isComplete),
+    complete: state => state.all.filter(task => task.isComplete)
   },
 
   mutations: {
