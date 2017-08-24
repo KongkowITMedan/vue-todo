@@ -16,7 +16,7 @@
     "vuex": "^2.3.1"
   },
   "devDependencies": {
-    "avoriaz": "^3.3.1",
+    "avoriaz": "^3.4.0",
     "babel-core": "^6.0.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.5.1",

@@ -246,9 +246,9 @@ autoprefixer@^6.3.1:
     postcss "^5.2.16"
     postcss-value-parser "^3.2.3"
 
-avoriaz@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/avoriaz/-/avoriaz-3.3.1.tgz#061e9cc0cbe5c058b218220646eb66e45df6bc08"
+avoriaz@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/avoriaz/-/avoriaz-3.4.0.tgz#4144fbb10671bfeb4ae4f81bd2f8c0386c2cb6b8"
   dependencies:
     lodash "^4.17.4"
     vue-add-globals "^2.0.0"
