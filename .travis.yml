@@ -16,14 +16,14 @@ install:
 script:
   - yarn test
 
-before_deploy:
-  - yarn build
+# before_deploy:
+#   - yarn build
 
-deploy:
-  provider: firebase
-  token:
-    secure: "$FIREBASE_TOKEN"
-  message: "your message"
-  skip_cleanup: true
-  on:
-    branch: master
+# deploy:
+#   provider: firebase
+#   token:
+#     secure: "$FIREBASE_TOKEN"
+#   message: "your message"
+#   skip_cleanup: true
+#   on:
+#     branch: master
